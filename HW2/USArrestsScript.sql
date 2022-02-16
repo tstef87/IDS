@@ -35,3 +35,6 @@ order by UrbanPop;
 select count(state)
 from USArrests
 where murder > (select murder from USArrests where state = 'Arizona'); #21
+
+
+
